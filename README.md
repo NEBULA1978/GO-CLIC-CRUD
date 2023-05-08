@@ -9,3 +9,4 @@ git clone https://github.com/fazt/go-cli-crud
 cd go-cli-crud
 go install
 ```
+# go-cli-crud

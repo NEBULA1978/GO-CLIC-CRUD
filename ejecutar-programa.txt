@@ -1,0 +1,24 @@
+┌─[next@next-systempro]─[~/Vídeos/linuxmint-arcjivos-7-5-23/go-cli-crud/go-cli-crud]
+└──╼ $go run main.go 
+Uso: todo [list|add|complete|delete]
+┌─[next@next-systempro]─[~/Vídeos/linuxmint-arcjivos-7-5-23/go-cli-crud/go-cli-crud]
+└──╼ $go run main.go list
+No hay tareas.
+┌─[next@next-systempro]─[~/Vídeos/linuxmint-arcjivos-7-5-23/go-cli-crud/go-cli-crud]
+└──╼ $go run main.go add
+Nombre de la tarea:
+yeaaa
+┌─[next@next-systempro]─[~/Vídeos/linuxmint-arcjivos-7-5-23/go-cli-crud/go-cli-crud]
+└──╼ $go run main.go list
+[ ] 1: yeaaa
+┌─[next@next-systempro]─[~/Vídeos/linuxmint-arcjivos-7-5-23/go-cli-crud/go-cli-crud]
+└──╼ $go run main.go complete 1
+┌─[next@next-systempro]─[~/Vídeos/linuxmint-arcjivos-7-5-23/go-cli-crud/go-cli-crud]
+└──╼ $go run main.go list
+[✓] 1: yeaaa
+┌─[next@next-systempro]─[~/Vídeos/linuxmint-arcjivos-7-5-23/go-cli-crud/go-cli-crud]
+└──╼ $go run main.go delete 1
+┌─[next@next-systempro]─[~/Vídeos/linuxmint-arcjivos-7-5-23/go-cli-crud/go-cli-crud]
+└──╼ $go run main.go list
+No hay tareas.
+┌─[next@next-systempro]─[~/Vídeos/linuxmint-arcjivos-7-5-23/go-cli-crud/go-cli-crud]
